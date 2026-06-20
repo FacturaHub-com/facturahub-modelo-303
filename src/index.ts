@@ -1,4 +1,4 @@
-// @facturahub/modelo-303 — Calcula las casillas principales del Modelo 303 (IVA trimestral).
+// facturahub-modelo-303 — Calcula las casillas principales del Modelo 303 (IVA trimestral).
 // Alcance: régimen general, operaciones interiores corrientes. 0 dependencias.
 // No sustituye al asesoramiento fiscal; cubre el caso común del autónomo.
 

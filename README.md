@@ -1,4 +1,4 @@
-# @facturahub/modelo-303
+# facturahub-modelo-303
 
 **Parte del ecosistema [FacturaHub](https://facturahub.com?utm_source=github&utm_medium=referral&utm_campaign=modelo-303)** — facturación en España, **Verifactu**, **IVA**, **Modelo 303** y automatización fiscal con IA.
 
@@ -7,13 +7,13 @@
 ## Instalación
 
 ```bash
-npm i @facturahub/modelo-303
+npm i facturahub-modelo-303
 ```
 
 ## Uso
 
 ```ts
-import { calcularModelo303 } from '@facturahub/modelo-303';
+import { calcularModelo303 } from 'facturahub-modelo-303';
 
 const r = calcularModelo303({
   ventas: [{ base: 1000, tipo: 21 }, { base: 300, tipo: 10 }],  // IVA repercutido

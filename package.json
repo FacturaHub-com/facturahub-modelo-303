@@ -1,5 +1,5 @@
 {
-  "name": "@facturahub/modelo-303",
+  "name": "facturahub-modelo-303",
   "version": "0.1.0",
   "description": "Calcula las casillas principales del Modelo 303 (IVA trimestral) en España desde tus ventas y compras. Sin dependencias.",
   "keywords": ["modelo 303", "iva", "casillas", "aeat", "españa", "spain", "facturacion", "autonomos", "trimestral", "impuestos"],
