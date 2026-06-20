@@ -1,0 +1,23 @@
+{
+  "name": "@facturahub/modelo-303",
+  "version": "0.1.0",
+  "description": "Calcula las casillas principales del Modelo 303 (IVA trimestral) en España desde tus ventas y compras. Sin dependencias.",
+  "keywords": ["modelo 303", "iva", "casillas", "aeat", "españa", "spain", "facturacion", "autonomos", "trimestral", "impuestos"],
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": { ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js", "require": "./dist/index.cjs" } },
+  "files": ["dist"],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --clean",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "license": "MIT",
+  "author": "FacturaHub",
+  "homepage": "https://facturahub.com?utm_source=npm&utm_medium=referral&utm_campaign=modelo-303",
+  "repository": { "type": "git", "url": "git+https://github.com/FacturaHub-com/facturahub-modelo-303.git" },
+  "devDependencies": { "tsup": "^8.0.0", "typescript": "^5.4.0", "vitest": "^1.6.0" }
+}
